@@ -46,7 +46,7 @@ const Header = () => {
     const handleClose = () => {
         setOpen(null);
     }
-     return(<AppBar>
+     return(<AppBar position="static">
                  <StyledToolbar>
                         <Logo src={logoURL} alt="logo" />
                         <Box onClick={handleClick}>
